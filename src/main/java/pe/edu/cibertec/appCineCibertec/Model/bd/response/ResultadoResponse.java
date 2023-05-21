@@ -7,5 +7,5 @@ import lombok.Data;
 @Builder
 public class ResultadoResponse {
 	private Boolean respuesta;
-	private Boolean mensaje;
+	private String mensaje;
 }
